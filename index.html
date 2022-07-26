@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR Instacheck JS Demo</title>
+    <style>
+        #container {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            flex-direction: column;
+        }
+        h1 {
+            font-family:"Fira Sans Condensed", Arial, Helvetica, sans-serif;
+            color: #535767;
+            margin-bottom: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Beyond Rarity Instacheck JS Demo</h1>
+
+        <!-- Create a container div and set a collectionId,  -->
+        <div id="br-instacheck" collectionId="wallstmoms" startTokenId="1" endTokenId="3000" theme="light"></div>
+        
+        <!-- Include this script  -->
+        <script src="./dist/index.min.js"></script>
+        
+        <script>
+            BRInstacheck.init("#br-instacheck", {
+                collectionId: "wallstmoms",
+                startTokenId: 100,
+                endTokenId: 3000,
+                theme: "light",
+            });
+            </script>
+    </div>
+   
+</body>
+
+</html>

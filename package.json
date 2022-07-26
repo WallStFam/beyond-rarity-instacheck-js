@@ -1,0 +1,53 @@
+{
+	"name": "@beyondrarity/instacheck-js",
+	"version": "0.1.0",
+	"description": "Beyond Rarity Instacheck widget",
+	"main": "dist/index.min.js",
+	"module": "dist/index.esm.js",
+	"author": "Nico Panfili (nico@beyondrarity.com)",
+	"license": "MIT",
+	"homepage": "https://beyondrarity.com",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/WallStFam/beyond-rarity-instacheck-js"
+	},
+	"scripts": {
+		"build": "preact build",
+		"dev": "preact watch",
+		"compile": "rollup -c"
+	},
+	"eslintConfig": {
+		"extends": "preact",
+		"ignorePatterns": [
+			"build/"
+		]
+	},
+	"devDependencies": {
+		"@babel/plugin-transform-react-jsx": "^7.18.6",
+		"@babel/plugin-transform-runtime": "^7.18.9",
+		"@babel/preset-react": "^7.18.6",
+		"@rollup/plugin-alias": "^3.1.9",
+		"@rollup/plugin-babel": "^5.3.1",
+		"@rollup/plugin-node-resolve": "^13.3.0",
+		"eslint": "^6.0.1",
+		"eslint-config-preact": "^1.1.0",
+		"preact-cli": "^3.0.0",
+		"rollup": "^2.77.0",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-postcss": "^4.0.2",
+		"rollup-plugin-terser": "^7.0.2"
+	},
+	"dependencies": {
+		"preact": "^10.3.2",
+		"preact-render-to-string": "^5.1.4"
+	},
+	"plugins": [
+		[
+			"transform-react-jsx",
+			{
+				"pragma": "h"
+			}
+		]
+	]
+}
