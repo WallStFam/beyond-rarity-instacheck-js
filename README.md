@@ -14,7 +14,7 @@
 
 <br/>
 
-## Check out the [BR-InstaCheck Widget Live Demo](https://codepen.io/nicopanfili/pen/oNqedza) on CodePen.
+### Check out the [BR-InstaCheck Widget Live Demo](https://codepen.io/nicopanfili/pen/oNqedza) on CodePen.
 
 <br/>
 
