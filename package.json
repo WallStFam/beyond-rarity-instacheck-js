@@ -14,7 +14,8 @@
 	"scripts": {
 		"build": "preact build",
 		"dev": "preact watch",
-		"compile": "rollup -c"
+		"compile": "rollup -c",
+		"publish": "npm publish --scope=@beyondrarity --access=public"
 	},
 	"eslintConfig": {
 		"extends": "preact",
