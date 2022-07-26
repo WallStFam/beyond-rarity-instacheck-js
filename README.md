@@ -12,7 +12,6 @@
     />
 </p>
 
-<br/>
 
 ### Check out the [BR-InstaCheck Widget Live Demo](https://codepen.io/nicopanfili/pen/oNqedza) on CodePen.
 
