@@ -24,13 +24,13 @@
     .
     .
     .
-    <!-- STEP 1: Create the BR-InstaCheck widget within your html and set collectionId, startTokenId and endTokenId values -->
+    <!-- STEP 1: Create the BR-InstaCheck widget container element and set collectionId, startTokenId and endTokenId values -->
     <div id="br-instacheck" collectionId="wallstmoms" startTokenId="1" endTokenId="3000" theme="light" />
     .
     .
     .
 
-    <!-- STEP 2: Import BR-InstaCheck package from the CDN (at bottom of <body> tag)-->
+    <!-- STEP 2: Import BR-InstaCheck package from the CDN (at end of <body> element)-->
     <script src="https://cdn.jsdelivr.net/npm/@beyondrarity/instacheck-js@latest/dist/index.min.js"></script>
 
     <!-- STEP 3: Initialize the BR-InstaCheck after importing the package -->
@@ -39,10 +39,14 @@
     </script>
 </body>
 ```
+<br/>
+
 ### Steps
 1. **Create the BR-InstaCheck widget** as a div container element where you want it placed withing your web page. You must set the `id="br-instacheck"` for the BR-InstaCheck package to know where to render the widget.
-2. **Import the BR-InstaCheck package** from the CDN at the bottom of your html `<body>` tag. By placing at the end of the body, teh web page can load first and then fetch BR-InstaCheck package.
+2. **Import the BR-InstaCheck package** from the CDN at the bottom of your html `<body>` element. By placing at the end of the `body`, the web page can load first and then fetch BR-InstaCheck package.
 3. **Initialize the BR-Instacheck widget** after you have imported the package. This will run the BR-InstaCheck code to render the widget.
+   
+   `Important`: Another reason to have the `BRInstacheck.init` method called at the end of the `body` element is that it ensures that you have already defined the `<div id="br-instacheck" ... />` widget container element, else the code will error.
 
 <br/>
 
