@@ -1,6 +1,6 @@
 {
 	"name": "@beyondrarity/instacheck-js",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Beyond Rarity Instacheck widget",
 	"main": "dist/index.min.js",
 	"module": "dist/index.esm.js",

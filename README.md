@@ -20,7 +20,7 @@ yarn add @beyondrarity/instacheck-js
 If you don't want to include instacheck-js npm package in your project, you can use it directly from CDN: 
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@beyondrarity/instacheck-js-test@0.0.3/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@beyondrarity/instacheck-js@0.1.0/dist/index.js"></script>
 ```
 
 ## Usage
