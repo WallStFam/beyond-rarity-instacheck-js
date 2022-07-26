@@ -1,5 +1,17 @@
 # Beyond Rarity Instacheck Widget - JS Version
 
+<p float="left">
+  <img src="public/light-theme.png"
+     alt="Light theme"
+     width="250" 
+     style="margin-right: 10px;" 
+    />
+  <img src="public/dark-theme.png"
+     alt="Dark Theme"
+     width="250" 
+    />
+</p>
+
 ### You can try a live demo [here](https://codepen.io/nicopanfili/pen/oNqedza)
 
 
