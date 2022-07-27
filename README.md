@@ -42,7 +42,7 @@
 <br/>
 
 ### Steps
-1. **Create the BR-InstaCheck widget** as a div container element where you want it placed withing your web page. You must set the `id="br-instacheck"` for the BR-InstaCheck package to know where to render the widget.
+1. **Create the container element for the BR-InstaCheck widget** where you want it placed within your web page. You must set the `id="br-instacheck"` for the BR-InstaCheck package to know where to render the widget. While the container element would be a `<div>` element, it can be any element; the BR-InstaCheck widget will simply be placed inside the specified element.
 2. **Import the BR-InstaCheck package** from the CDN at the bottom of your html `<body>` element. By placing at the end of the `body`, the web page can load first and then fetch BR-InstaCheck package.
 3. **Initialize the BR-Instacheck widget** after you have imported the package. This will run the BR-InstaCheck code to render the widget.
    
