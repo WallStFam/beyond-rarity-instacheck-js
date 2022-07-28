@@ -44,11 +44,11 @@
 ### Steps
 1. **Create the container element for the BR-InstaCheck widget** where you want it placed within your web page. You must set the `id="br-instacheck"` for the BR-InstaCheck package to know where to render the widget.
    
-   `NOTE`: the container element does not need to be a `<div>` element but can be any element; the BR-InstaCheck widget will simply be placed inside the specified element.
+   **NOTE**`: the container element does not need to be a `<div>` element but can be any element; the BR-InstaCheck widget will simply be placed inside the specified element.
 2. **Import the BR-InstaCheck package** from the CDN at the bottom of your html `<body>` element. By placing at the end of the `body`, the web page can load first and then fetch BR-InstaCheck package.
 3. **Initialize the BR-Instacheck widget** after you have imported the package. This will run the BR-InstaCheck code to render the widget.
    
-   `Important`: Another reason to have the `BRInstacheck.init` method called at the end of the `body` element is that it ensures that you have already defined the container element (i.e. `<div id="br-instacheck" ... />`), else the code will not render widget.
+   **Important**: Another reason to have the `BRInstacheck.init` method called at the end of the `body` element is that it ensures that you have already defined the container element (i.e. `<div id="br-instacheck" ... />`), else the code will not render widget.
 
 <br/>
 
@@ -93,6 +93,6 @@ Instead of specifying the attributes in the `<div id="br-instacheck" ...>` conta
 </body>
 ```
 
-`NOTE`: The div container element attributes take precedence over the config object values. If you define an attribute in both the div container and `BRInstacheck.init` config object, the value defined on the div container element will be used.
+**NOTE**: The div container element attributes take precedence over the config object values. If you define an attribute in both the div container and `BRInstacheck.init` config object, the value defined on the div container element will be used.
 
 Check out the [BR-InstaCheck Widget Alternative Code Option Live Demo](https://codepen.io/nicopanfili/pen/xxWXVmb) on CodePen.
