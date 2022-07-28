@@ -48,7 +48,7 @@
 2. **Import the BR-InstaCheck package** from the CDN at the bottom of your html `<body>` element. By placing at the end of the `body`, the web page can load first and then fetch BR-InstaCheck package.
 3. **Initialize the BR-Instacheck widget** after you have imported the package. This will run the BR-InstaCheck code to render the widget.
    
-   **Important**: Another reason to have the `BRInstacheck.init` method called at the end of the `body` element is that it ensures that you have already defined the container element (i.e. `<div id="br-instacheck" ... />`), else the code will not render widget.
+   **IMPORTANT**: Another reason to have the `BRInstacheck.init` method called at the end of the `body` element is that it ensures that you have already defined the container element (i.e. `<div id="br-instacheck" ... />`), else the code will not render widget.
 
 <br/>
 
