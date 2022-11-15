@@ -59,7 +59,7 @@ function Instacheck({ collectionId, theme, startTokenId, endTokenId }) {
 	};
 
 	const onSubmit = (tokenId) => {
-		window.open(`https://beyondrarity.com/c/${collectionId}/${tokenId}`);
+		window.open(`https://instacheck.beyondrarity.com/c/${collectionId}/${tokenId}`);
 		input.value = "";
 	};
 
