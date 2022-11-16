@@ -2,7 +2,7 @@
 
 This page has instructions for the plain JS.
 
-If you are using React, you can see instructions here: https://github.com/WallStFam/beyond-rarity-instacheck/
+If you are using React, you can see instructions here: https://www.npmjs.com/package/@beyondrarity/instacheck
 
 <p float="left">
   <img src="public/light-theme.png"
@@ -17,7 +17,7 @@ If you are using React, you can see instructions here: https://github.com/WallSt
 </p>
 
 
-### Check out the [BR-InstaCheck Widget Live Demo](https://codepen.io/nicopanfili/pen/oNqedza) on CodePen.
+### Check out the [BR-InstaCheck JS Widget Live Demo](https://codepen.io/nicopanfili/pen/oNqedza) on CodePen.
 
 <br/>
 
